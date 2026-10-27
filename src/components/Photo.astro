@@ -1,0 +1,53 @@
+---
+import { imageFor, type Entry } from "../data/gallery";
+interface Props {
+  entry: Entry;
+  index?: number;
+  eager?: boolean;
+  compact?: boolean;
+}
+const {
+  entry: { photo, album },
+  index = 0,
+  eager = false,
+  compact = false,
+} = Astro.props;
+const image = imageFor(photo);
+---
+
+<figure
+  class:list={["photograph", { portrait: image.height > image.width, compact }]}
+  data-reveal
+>
+  <a
+    class="photo-link"
+    href={photo.src}
+    data-photo={photo.src}
+    aria-label={`View ${photo.title}`}
+  >
+    <img
+      src={photo.src}
+      srcset={image.srcset}
+      sizes={
+        compact
+          ? "(max-width: 700px) 90vw, 44vw"
+          : "(max-width: 700px) 92vw, 84vw"
+      }
+      width={image.width}
+      height={image.height}
+      alt={photo.alt}
+      loading={eager ? "eager" : "lazy"}
+      decoding="async"
+    />
+    <span class="photo-open" aria-hidden="true">
+      View photograph ↗
+    </span>
+  </a>
+  <figcaption>
+    <span>
+      <span class="photo-number">{String(index + 1).padStart(2, "0")}</span>
+      {photo.title}
+    </span>
+    <a href={`/collections/${album.slug}/`}>{album.title}</a>
+  </figcaption>
+</figure>

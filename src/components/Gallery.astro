@@ -1,0 +1,38 @@
+---
+import Photo from "./Photo.astro";
+import type { Entry } from "../data/gallery";
+interface Props {
+  entries: Entry[];
+}
+const { entries } = Astro.props;
+const rows: { entries: Entry[]; start: number }[] = [];
+for (let index = 0; index < entries.length;) {
+  const first = entries[index];
+  const count =
+    first.photo.height > first.photo.width && index + 1 < entries.length
+      ? 2
+      : 1;
+  rows.push({ entries: entries.slice(index, index + count), start: index });
+  index += count;
+}
+---
+
+<div class="editorial-gallery" data-gallery>
+  {rows.map((row, index) => (
+    <div
+      class:list={[
+        "gallery-row",
+        row.entries.length === 2 ? "paired" : "single",
+        { "offset-right": index % 2 === 1, wide: index % 4 === 0 },
+      ]}
+    >
+      {row.entries.map((entry, itemIndex) => (
+        <Photo
+          entry={entry}
+          index={row.start + itemIndex}
+          compact={row.entries.length === 2}
+        />
+      ))}
+    </div>
+  ))}
+</div>

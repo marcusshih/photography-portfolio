@@ -1,0 +1,1701 @@
+{
+  "sourceProject": "Marcus-Portfolio2025",
+  "metadata": {
+    "destination": "src/data/photography.ts",
+    "sha256": "ef3469027a3a9f541bf586e6215bdc30b56c95bf1868ef17b3c024dcae2e1212"
+  },
+  "files": [
+    {
+      "source": "public/img/photography/busan/000357620022.JPG",
+      "destination": "archive/photography/busan/000357620022.JPG",
+      "bytes": 6675673,
+      "sha256": "f22b8b1c377f72ae2eeaf628c579f1f27a9977529ad0336030ac68b0079c9ff6"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0031.JPG",
+      "destination": "archive/photography/busan/IMG_0031.JPG",
+      "bytes": 9105940,
+      "sha256": "7c9d1e807ae5dfab9305571a1831491d9f52faf74d2204323f7f4be3407bdd7c"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0033 2.JPG",
+      "destination": "archive/photography/busan/IMG_0033 2.JPG",
+      "bytes": 10253994,
+      "sha256": "c206b741f8f0e050600b19e30a298016c4551c123d489c904f27b352c8021b83"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0832.JPG",
+      "destination": "archive/photography/busan/IMG_0832.JPG",
+      "bytes": 10753294,
+      "sha256": "87422cf79d811eba607c1adc815885e24a2bb036fe52419c048c274530204b7e"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0852.JPG",
+      "destination": "archive/photography/busan/IMG_0852.JPG",
+      "bytes": 12817447,
+      "sha256": "1f847d5079e20dc0fb65c83418c2c374c899b1615d11de251d97c66359862232"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0865.JPG",
+      "destination": "archive/photography/busan/IMG_0865.JPG",
+      "bytes": 21253305,
+      "sha256": "526b6aac755f870f90a1c6830c5d34273245232d4abfb9700d8a7397f7bd4a0b"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0870.JPG",
+      "destination": "archive/photography/busan/IMG_0870.JPG",
+      "bytes": 13270241,
+      "sha256": "9f5e00c13ec1e682718773312e71f377a4b1e7b290f6c7df6fdb225598ebe97b"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_0922.JPG",
+      "destination": "archive/photography/busan/IMG_0922.JPG",
+      "bytes": 8317165,
+      "sha256": "b947cafc155d0bff0b286bf7038d63b4aa112d15a4a541d1d650bdb339743550"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_1001.JPG",
+      "destination": "archive/photography/busan/IMG_1001.JPG",
+      "bytes": 13604725,
+      "sha256": "d5961608de551fed5e325fe3476bd8db43c6b02897f71e0b376f74e6d1709cd2"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_1464.JPG",
+      "destination": "archive/photography/busan/IMG_1464.JPG",
+      "bytes": 6026962,
+      "sha256": "d9706819dc6c66ca9e06106bbcb3ceb59cb95fed12ae2abd255b594fa7781e94"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_9861.JPG",
+      "destination": "archive/photography/busan/IMG_9861.JPG",
+      "bytes": 12386096,
+      "sha256": "c1011704169239d4ff528196bf7db1ffacddcc4a653cf4f6a36a1611416c9443"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_9866.JPG",
+      "destination": "archive/photography/busan/IMG_9866.JPG",
+      "bytes": 14317808,
+      "sha256": "a5c5bd1dca2bf2c080225ad1082a7a657a912d061fda9950601ad823ca66be4b"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_9914.JPG",
+      "destination": "archive/photography/busan/IMG_9914.JPG",
+      "bytes": 14070776,
+      "sha256": "fd10c8b12f2b7650aff8a675a921cee25e5b7718b48d32584c96d0d41a66f091"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_9917.JPG",
+      "destination": "archive/photography/busan/IMG_9917.JPG",
+      "bytes": 3935777,
+      "sha256": "dcc5dbd5b038eacb76e069ef6631fa702825a20c2713f56f0fe575caaceb85a9"
+    },
+    {
+      "source": "public/img/photography/busan/IMG_9918.JPG",
+      "destination": "archive/photography/busan/IMG_9918.JPG",
+      "bytes": 9540114,
+      "sha256": "dc3fcef5dd849a9f196a1ebc0c1bcab9e8a6317b3cd7de1ccc799a4236c9c5ac"
+    },
+    {
+      "source": "public/img/photography/busan/busan_banner.JPG",
+      "destination": "archive/photography/busan/busan_banner.JPG",
+      "bytes": 12959168,
+      "sha256": "5a49604fb49348db59ae0021dee1080b6153cbed4299c3f4ebb001d0dd3d14e8"
+    },
+    {
+      "source": "public/img/photography/busan/photo-output 4.JPEG",
+      "destination": "archive/photography/busan/photo-output 4.JPEG",
+      "bytes": 4805040,
+      "sha256": "c158b5d93a8515e0b90d621825da36d8df66dd5a884077ba97a5f1e168bafe54"
+    },
+    {
+      "source": "public/img/photography/busan/web/000357620022.webp",
+      "destination": "public/img/photography/busan/web/000357620022.webp",
+      "bytes": 850698,
+      "sha256": "69fd318bb465e2d65a7861ce9af7efc6cc53abe55067a3dac5e648b5aa27f242"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0031.webp",
+      "destination": "public/img/photography/busan/web/IMG_0031.webp",
+      "bytes": 160822,
+      "sha256": "afacb3f648d5ddcb940f5472b299bcc4487c8da921157e2e29bfba1281cab106"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0033_2.webp",
+      "destination": "public/img/photography/busan/web/IMG_0033_2.webp",
+      "bytes": 123178,
+      "sha256": "224eb533239442153861e985e3f2e24767db8cd07c3724f421f2cf2f81a3055d"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0832.webp",
+      "destination": "public/img/photography/busan/web/IMG_0832.webp",
+      "bytes": 405944,
+      "sha256": "08bc1f293f0d108bbb2f462e5e9ff17815ccd4c48c9678c8249ec60d79d9d3af"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0852.webp",
+      "destination": "public/img/photography/busan/web/IMG_0852.webp",
+      "bytes": 532980,
+      "sha256": "c95a3ea695230079424cd90cf9bfb05c34e3066d7f7494cfe178d26ef8276c30"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0865.webp",
+      "destination": "public/img/photography/busan/web/IMG_0865.webp",
+      "bytes": 1034098,
+      "sha256": "da2915ce995279432cc07f0adb80a948f1a3c870490d074d3661ab9c1f382149"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0870.webp",
+      "destination": "public/img/photography/busan/web/IMG_0870.webp",
+      "bytes": 497734,
+      "sha256": "8a5e390acbf3e80bf6a2f707de471a868f9070b05a476fc6859a7986c6967c1a"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_0922.webp",
+      "destination": "public/img/photography/busan/web/IMG_0922.webp",
+      "bytes": 130382,
+      "sha256": "ae61db54d371cb5edf354f19559372e6f20693bbc433f0fde2e3b6821c4b091a"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_1001.webp",
+      "destination": "public/img/photography/busan/web/IMG_1001.webp",
+      "bytes": 179656,
+      "sha256": "0c76a049486ca9840f88e6bc95034e3510a58fa96c68bfeff261a8f6d6edb149"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_1464.webp",
+      "destination": "public/img/photography/busan/web/IMG_1464.webp",
+      "bytes": 571076,
+      "sha256": "fbd8b23ac0863f2c99f6edc9741100078f7eeca1b1c432762c14f6fb1d5daa20"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_9861.webp",
+      "destination": "public/img/photography/busan/web/IMG_9861.webp",
+      "bytes": 191914,
+      "sha256": "0a1e070194daf0810490b95d938db64aa358ed8cf8f30f76f34857bc64a5d587"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_9866.webp",
+      "destination": "public/img/photography/busan/web/IMG_9866.webp",
+      "bytes": 481024,
+      "sha256": "ffb0af2a48a5cea9257ab41e8dfc77ddec0e3d3370ddc6fd039e2cc1993934fd"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_9914.webp",
+      "destination": "public/img/photography/busan/web/IMG_9914.webp",
+      "bytes": 446028,
+      "sha256": "e7e8a770c11917e318cb22b87b72ca65f7f300d9062b5d65184ff4b93ec3031c"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_9917.webp",
+      "destination": "public/img/photography/busan/web/IMG_9917.webp",
+      "bytes": 208630,
+      "sha256": "966e7373cceca902da8d8077117d13972626995cd37156557b45a80acc789f33"
+    },
+    {
+      "source": "public/img/photography/busan/web/IMG_9918.webp",
+      "destination": "public/img/photography/busan/web/IMG_9918.webp",
+      "bytes": 355132,
+      "sha256": "7767ed272c717bde07a641fbb11b57ac56fae9b1f50af9273ed0cd5846cc8b90"
+    },
+    {
+      "source": "public/img/photography/busan/web/busan_banner.webp",
+      "destination": "public/img/photography/busan/web/busan_banner.webp",
+      "bytes": 258294,
+      "sha256": "70b6a16e3834c1c00271aad0513f384251b8db20bebeb5d877b5566d0bc302a7"
+    },
+    {
+      "source": "public/img/photography/busan/web/photo-output_4.webp",
+      "destination": "public/img/photography/busan/web/photo-output_4.webp",
+      "bytes": 310816,
+      "sha256": "2a67e8d2240899062474fb44a6d2bd84d326da5ceb46eb4c07062e5381bbf675"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_1796.JPG",
+      "destination": "archive/photography/nyc/IMG_1796.JPG",
+      "bytes": 29761824,
+      "sha256": "d0ab3e9e17a1af16fbfb0c92765481a83bd20fd474786c7b02eac6e33b950c4d"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_2211.JPG",
+      "destination": "archive/photography/nyc/IMG_2211.JPG",
+      "bytes": 23909809,
+      "sha256": "1c09dd1d7db37ca3fafd73dfa667614dd939c44d2eab53293dbc731762055e05"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_5106.JPG",
+      "destination": "archive/photography/nyc/IMG_5106.JPG",
+      "bytes": 9424534,
+      "sha256": "b10b724bddc506e675f0e84e7b4eead2f5e28bb04a305375eb6e3faec1bfc9f2"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_5107.JPG",
+      "destination": "archive/photography/nyc/IMG_5107.JPG",
+      "bytes": 14196020,
+      "sha256": "5a04a27ae98d22dbeb59239ce3152ef0def8556bf5175a7e2bdf82df35288e33"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_5112.JPG",
+      "destination": "archive/photography/nyc/IMG_5112.JPG",
+      "bytes": 15562248,
+      "sha256": "07c567b38672e5f38918bd68ff28ed936e059bb370348f2dd17630d86a2d9607"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_5120.JPG",
+      "destination": "archive/photography/nyc/IMG_5120.JPG",
+      "bytes": 2883479,
+      "sha256": "4343d6fd4c9429e61e9a452ae4c92b6c042bce4630aae234ec86372db00e6985"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_5121.JPG",
+      "destination": "archive/photography/nyc/IMG_5121.JPG",
+      "bytes": 12770542,
+      "sha256": "d1e2f95e3def9b9098a4f29237b1b9968d60470ba7252a8b482ce204adee957a"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_7639.JPG",
+      "destination": "archive/photography/nyc/IMG_7639.JPG",
+      "bytes": 10327537,
+      "sha256": "19569002006ec64e1ed229f56ec9e08f2d8618c399e093515f66f9dd6a672e3b"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_7645.JPG",
+      "destination": "archive/photography/nyc/IMG_7645.JPG",
+      "bytes": 4450518,
+      "sha256": "be5e6a485d31c6217d67c8b99614f877fcc0d293e3af39cbcd2284c74b8c1d6b"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_7689.JPG",
+      "destination": "archive/photography/nyc/IMG_7689.JPG",
+      "bytes": 13924492,
+      "sha256": "768e22eed7e40cb7fa070dac7b6756f6ecb590eb549a80843ecc193f1ed8b5eb"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_8065.JPG",
+      "destination": "archive/photography/nyc/IMG_8065.JPG",
+      "bytes": 7864223,
+      "sha256": "c2e00e01134b36ab7d13bfe458e2a57220bf03f357ab7e4bd1b078811d041a09"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_8700.JPG",
+      "destination": "archive/photography/nyc/IMG_8700.JPG",
+      "bytes": 13736979,
+      "sha256": "a3672b78952da92fc19d995c1563ec40a7d9cece1b048264185777ce5d883ef4"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_8930.JPG",
+      "destination": "archive/photography/nyc/IMG_8930.JPG",
+      "bytes": 8933357,
+      "sha256": "183e82647d8f884df52479c4f29e7de8010a7e160fe9c5208f75a874db6d8819"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_9269.JPG",
+      "destination": "archive/photography/nyc/IMG_9269.JPG",
+      "bytes": 13616498,
+      "sha256": "1e17bf08675dbcf5b068bf43e3474f0a29fd1caa5b80a7b70e030c0ee7e0fa39"
+    },
+    {
+      "source": "public/img/photography/nyc/IMG_9825.JPG",
+      "destination": "archive/photography/nyc/IMG_9825.JPG",
+      "bytes": 6632303,
+      "sha256": "2ad91e349fb4b36b3427a10ec8d91b8ec50e052590c56726aa2df7b2f364583d"
+    },
+    {
+      "source": "public/img/photography/nyc/nyc_banner.JPG",
+      "destination": "archive/photography/nyc/nyc_banner.JPG",
+      "bytes": 22788137,
+      "sha256": "dbd7bba02ada36f0ac3fdd1f454ce601f010ab979917ab72884dea0b8a26116c"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_1796.webp",
+      "destination": "public/img/photography/nyc/web/IMG_1796.webp",
+      "bytes": 987382,
+      "sha256": "11d84f1114fb922d7da1cb37a80a8fbdb54bb74230f7bd83f2fcc93993ade515"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_2211.webp",
+      "destination": "public/img/photography/nyc/web/IMG_2211.webp",
+      "bytes": 320384,
+      "sha256": "7a44322a45c6d089d9419cbbdf3b192e85b30f84ac10a910f53124a26228d5e8"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_5106.webp",
+      "destination": "public/img/photography/nyc/web/IMG_5106.webp",
+      "bytes": 88670,
+      "sha256": "b499f3de1f3de194e25d1f5649f82b30e5c3ddf3b5783376030b77de0bb0bc0d"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_5107.webp",
+      "destination": "public/img/photography/nyc/web/IMG_5107.webp",
+      "bytes": 100766,
+      "sha256": "e4ee3f1ed87075790dc161f7650d46cc4b04fea4cf28622102015f5bd7b1f591"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_5112.webp",
+      "destination": "public/img/photography/nyc/web/IMG_5112.webp",
+      "bytes": 580008,
+      "sha256": "f434ac30d47936525bd0d0c11396487d515ea32f94bf1d4784f16a9ebeb80bcc"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_5120.webp",
+      "destination": "public/img/photography/nyc/web/IMG_5120.webp",
+      "bytes": 743664,
+      "sha256": "70435d65281d3ab077d54f738a878581af7a02aa528781c65233b99c0952b4fc"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_5121.webp",
+      "destination": "public/img/photography/nyc/web/IMG_5121.webp",
+      "bytes": 783634,
+      "sha256": "34b14c0898dfb24be51bb84e1533467a70ccae2f201c5fe6cdb071b2aac701d1"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_7639.webp",
+      "destination": "public/img/photography/nyc/web/IMG_7639.webp",
+      "bytes": 461394,
+      "sha256": "11fece8e3c4bfa9d3d4f56842f6478e13e5ac10621bb43125d3742ae02d988f7"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_7645.webp",
+      "destination": "public/img/photography/nyc/web/IMG_7645.webp",
+      "bytes": 76784,
+      "sha256": "2fa8a26dff74ebbfb98ca1b356de5a2dfeae30e0e0ec6ce090287aa3b363080f"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_7689.webp",
+      "destination": "public/img/photography/nyc/web/IMG_7689.webp",
+      "bytes": 352914,
+      "sha256": "f592b138861a26e4c85f9cf4af4a985826ccb6238ef2dd6f0a667a9192bdd49a"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_8065.webp",
+      "destination": "public/img/photography/nyc/web/IMG_8065.webp",
+      "bytes": 186756,
+      "sha256": "129404623d6f9966f8a36724271277d997e98771e31291ea440fc15ca99b98a3"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_8700.webp",
+      "destination": "public/img/photography/nyc/web/IMG_8700.webp",
+      "bytes": 331988,
+      "sha256": "ab4c19fce9d66b0033637652968a679f584d97e15855abf15032dc0ba76dee1e"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_8930.webp",
+      "destination": "public/img/photography/nyc/web/IMG_8930.webp",
+      "bytes": 100814,
+      "sha256": "761e252d15d4b6b680a3906f5a9ffa7a1dc021c8ff12889de9ff4c40d16313e9"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_9269.webp",
+      "destination": "public/img/photography/nyc/web/IMG_9269.webp",
+      "bytes": 391862,
+      "sha256": "8471d6fbc704d32412aea7fc02f726ca02f9d504efb4e84531035af83f09fb45"
+    },
+    {
+      "source": "public/img/photography/nyc/web/IMG_9825.webp",
+      "destination": "public/img/photography/nyc/web/IMG_9825.webp",
+      "bytes": 216436,
+      "sha256": "46310ccbe0f2889130ccda62516023c7a56e1ffcd7a47f89e9740dfc6f11eedc"
+    },
+    {
+      "source": "public/img/photography/nyc/web/nyc_banner.webp",
+      "destination": "public/img/photography/nyc/web/nyc_banner.webp",
+      "bytes": 919968,
+      "sha256": "766616dbb0f6dcf6856bd2d957f7493bd0ecda4778a23c0ddd64c4fce54dcad4"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_0231.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_0231.JPG",
+      "bytes": 15874648,
+      "sha256": "a61f8b87fa3467241e81acdf4cca8f02a6c325f1c2168e4e222cda19ddf99d4c"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_3450.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_3450.JPG",
+      "bytes": 8514858,
+      "sha256": "a2a6d6a61b13694a1daadfff025b669c7498f2971604a68443c5f422d51123a3"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_3520.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_3520.JPG",
+      "bytes": 9416686,
+      "sha256": "51a09b9abde98c29c66bfa28a7fc03260ca0b51dd4f50616e015adcc4d3aadbc"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_4019.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_4019.JPG",
+      "bytes": 9536352,
+      "sha256": "ee089da02ca2d44b1c50e33587a05f4e74f5932650eff5de36d377e70a1de8cc"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_4052.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_4052.JPG",
+      "bytes": 8927238,
+      "sha256": "d8728becbd570ada8e883e3d00d59f466ccde3cb59fe525d0054ca626095187b"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_4103.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_4103.JPG",
+      "bytes": 8431013,
+      "sha256": "9e7ea417490aaf69f9eaac5c5332bb2f22e5120049cae34ab085f9c2f3368e92"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_4218.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_4218.JPG",
+      "bytes": 8612826,
+      "sha256": "405e311a41fa6c55940533b9141171f836f23f5fd78ba9680f1dd57ed7c2228b"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_4979.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_4979.JPG",
+      "bytes": 11972062,
+      "sha256": "317495022662274c540a7f37f689de854c9b99ee9d1816689de32557818cc636"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_7119.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_7119.JPG",
+      "bytes": 3241307,
+      "sha256": "46dede8a268613fb7b336d99f5349772387af9ac83f3a54cd274e8b1afaab18c"
+    },
+    {
+      "source": "public/img/photography/taiwan/0922 add/IMG_7223.JPG",
+      "destination": "archive/photography/taiwan/0922 add/IMG_7223.JPG",
+      "bytes": 7559469,
+      "sha256": "232943ad94bfe58f1ecd7b4af8cec822f37f379f17104112e912ac83a9f7d904"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_0474.JPG",
+      "destination": "archive/photography/taiwan/IMG_0474.JPG",
+      "bytes": 4446784,
+      "sha256": "c89ec48af407d8c5806a1e9507bea6ea815c430ba102b297b57ee1353a15ef9a"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_1139.JPG",
+      "destination": "archive/photography/taiwan/IMG_1139.JPG",
+      "bytes": 13195860,
+      "sha256": "0d7b69e65d46213d02bbf9e802846fde55f5795c5b50aa32d8744076f0e5be9b"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_1184.JPG",
+      "destination": "archive/photography/taiwan/IMG_1184.JPG",
+      "bytes": 12446675,
+      "sha256": "af6b5b32f6bb1ddc35ba8e82c02557c297cffdff19bcdcd6d865164960d8f7b9"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_1228.JPG",
+      "destination": "archive/photography/taiwan/IMG_1228.JPG",
+      "bytes": 9132879,
+      "sha256": "b017d91eec278f08fe054099ef5db3c57b3efa78df9836f8f204bfa31f728957"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_1349.JPG",
+      "destination": "archive/photography/taiwan/IMG_1349.JPG",
+      "bytes": 10500040,
+      "sha256": "a492777bd3733f9bb7b417c1b39833fe26e5f24610a9a5f406609e5a12a3c871"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2256.JPG",
+      "destination": "archive/photography/taiwan/IMG_2256.JPG",
+      "bytes": 9770663,
+      "sha256": "65213c87bcc313b2a4b99b3560c0133a2b5490344b7a73b202ece0686637916a"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2441.JPG",
+      "destination": "archive/photography/taiwan/IMG_2441.JPG",
+      "bytes": 15383965,
+      "sha256": "17092cc4ea71f8c2239923749aa6c181fcc496f20b94dd27e4b8a5395d17a46f"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2444.JPG",
+      "destination": "archive/photography/taiwan/IMG_2444.JPG",
+      "bytes": 13080021,
+      "sha256": "bdae66b487b63a70d90f4b165df5714810ae19005ad047147776d7b5ee9520a4"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2456.JPG",
+      "destination": "archive/photography/taiwan/IMG_2456.JPG",
+      "bytes": 9292806,
+      "sha256": "2b3b8d147cc63af98795b731407ed1491c9e89fc5536c2d90998cb5eb4b97d4f"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2457.JPG",
+      "destination": "archive/photography/taiwan/IMG_2457.JPG",
+      "bytes": 13866201,
+      "sha256": "5a7e1d78f54aa60512f851f6514c6cb4626a867cbed946efc2654a1a25b11ed6"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2458.JPG",
+      "destination": "archive/photography/taiwan/IMG_2458.JPG",
+      "bytes": 11595006,
+      "sha256": "a1626406c04634ef84e1860693b11e3f21a92443b0a447271ad8eb3f2aefa1ea"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2704.JPG",
+      "destination": "archive/photography/taiwan/IMG_2704.JPG",
+      "bytes": 4082844,
+      "sha256": "f2b3c0498a4ee1d0e1babbb4e884195d1ca583f21e7733714a5814826fa474ed"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2826.jpg",
+      "destination": "archive/photography/taiwan/IMG_2826.jpg",
+      "bytes": 6961864,
+      "sha256": "4420ad458ff178fbc806e4aedf1a19602bc888559795bebfbdb5672ae4c93a6a"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2834.JPG",
+      "destination": "archive/photography/taiwan/IMG_2834.JPG",
+      "bytes": 2617869,
+      "sha256": "1d2149a342983c2f6bf04a66a1af03668b02c7f280af7053b3014e56c266a758"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_2884.JPG",
+      "destination": "archive/photography/taiwan/IMG_2884.JPG",
+      "bytes": 23431857,
+      "sha256": "6916a6edb8dd26ec1532efb435de577610f898c68a3758f6da3f666d3adf8772"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_3176.JPG",
+      "destination": "archive/photography/taiwan/IMG_3176.JPG",
+      "bytes": 7178356,
+      "sha256": "39c56e10085958751c9a01b618570d6768e238a8cb17256da41c2e284533a8b7"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_3225.JPG",
+      "destination": "archive/photography/taiwan/IMG_3225.JPG",
+      "bytes": 13686577,
+      "sha256": "f5e4a9b14661c25151dd1c84837ef1dfbd7208a2338188e22b93dd78e4d6baaa"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_3392.JPG",
+      "destination": "archive/photography/taiwan/IMG_3392.JPG",
+      "bytes": 16016382,
+      "sha256": "6b03df1f3119d9adcde5728d1a54f8f67255d786e488070a88560e49d17c1622"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_3597.JPG",
+      "destination": "archive/photography/taiwan/IMG_3597.JPG",
+      "bytes": 13792145,
+      "sha256": "64b1712dcf21f793fefd13409a3d6bfd9bcbaf9c879fb33f58622e19b27fe9d6"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_4342 2.JPG",
+      "destination": "archive/photography/taiwan/IMG_4342 2.JPG",
+      "bytes": 11584962,
+      "sha256": "6905bdab08616904a1044f6c314713f17926a24e89d3b2292e00e92a805ad639"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_6247.JPG",
+      "destination": "archive/photography/taiwan/IMG_6247.JPG",
+      "bytes": 7154307,
+      "sha256": "6f97035842448c78fe55c1a606e187141452016c285ed9a9f45c03de225d395d"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_6346.JPG",
+      "destination": "archive/photography/taiwan/IMG_6346.JPG",
+      "bytes": 14612501,
+      "sha256": "4249017d74480c75855fa715cbf782ff7af79f9ecbe6972804c8033a6db691fe"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_6753.JPG",
+      "destination": "archive/photography/taiwan/IMG_6753.JPG",
+      "bytes": 9438757,
+      "sha256": "4986c5251211e297fb12fdf62584610f44a29f332997651cd85ccd284512b4a9"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7030.JPG",
+      "destination": "archive/photography/taiwan/IMG_7030.JPG",
+      "bytes": 11365954,
+      "sha256": "49975101b904abc90069b0f55c98506a63d01552e15c9ee9f0eb66eb61510e7b"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7878.JPG",
+      "destination": "archive/photography/taiwan/IMG_7878.JPG",
+      "bytes": 16210917,
+      "sha256": "ba555bb29a1dcbd99747f1e075b3778e0e5624e74518f5f1459609c8c3421ddc"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7917.JPG",
+      "destination": "archive/photography/taiwan/IMG_7917.JPG",
+      "bytes": 21030982,
+      "sha256": "74d6b0ac4a389535eb590090dbcb87568e749af7e47a0c85717c6811f26a4ff7"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7924.JPG",
+      "destination": "archive/photography/taiwan/IMG_7924.JPG",
+      "bytes": 23695085,
+      "sha256": "826bb5532764d11b48daeeb6aebc808d7d8004e7927c13f15ecdd79faf245ae7"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7938.JPG",
+      "destination": "archive/photography/taiwan/IMG_7938.JPG",
+      "bytes": 9681685,
+      "sha256": "5012c40dc7532f5d07e05bd00306c1396b0fd581aebb8e49b7fe6e587b58ca99"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7950.JPG",
+      "destination": "archive/photography/taiwan/IMG_7950.JPG",
+      "bytes": 26265882,
+      "sha256": "46b061339ffc57423aa3cd4308851d0a9b17b88b328563aa103f7018ba620416"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_7964.JPG",
+      "destination": "archive/photography/taiwan/IMG_7964.JPG",
+      "bytes": 21914150,
+      "sha256": "87f84cc04d1b4bd7ebe7e109156fd2081f46eb3c630ec5d30122e9c526d7fc62"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_8033.JPG",
+      "destination": "archive/photography/taiwan/IMG_8033.JPG",
+      "bytes": 13736841,
+      "sha256": "0cd8491886a026555b876f611fa3519d9e9ce5d15152c99aae87fdabfd5eff31"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_8064.JPG",
+      "destination": "archive/photography/taiwan/IMG_8064.JPG",
+      "bytes": 12535266,
+      "sha256": "a94fb0dc9745535b81cab8dde6fa58f4f89e60c9c06e605a4bd4cee44f39ef9b"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_8151.JPG",
+      "destination": "archive/photography/taiwan/IMG_8151.JPG",
+      "bytes": 9677724,
+      "sha256": "d3c67b2ba55555caba2ce7735bdeee71730c0e957d0a0fffc9a45c7492f28621"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_8577.JPG",
+      "destination": "archive/photography/taiwan/IMG_8577.JPG",
+      "bytes": 7436716,
+      "sha256": "3a0b7c490b9bbf79b42a6ea8f853719905e056bff34761220763dd89f1827518"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_8821.JPG",
+      "destination": "archive/photography/taiwan/IMG_8821.JPG",
+      "bytes": 7542939,
+      "sha256": "e1e921519ebe64b7df7e3be984f9db53e9923dfb39b344b1da9ea18b20d19d31"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9352.JPG",
+      "destination": "archive/photography/taiwan/IMG_9352.JPG",
+      "bytes": 8178905,
+      "sha256": "91b0682400bc86c0869c63c12bf8a76e1bc332dffb8b89b623700e25b5220392"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9393.JPG",
+      "destination": "archive/photography/taiwan/IMG_9393.JPG",
+      "bytes": 14193548,
+      "sha256": "08bfa423837c5c50a65dff18aeb9f6f5991768f3e3d8b8e684ecc4e3f8ce4ae3"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9396.JPG",
+      "destination": "archive/photography/taiwan/IMG_9396.JPG",
+      "bytes": 14012875,
+      "sha256": "e1e74b5742ef45a4f82fc3d355aafdda3a19809cfa5eda56679b28b663da18ad"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9477.JPG",
+      "destination": "archive/photography/taiwan/IMG_9477.JPG",
+      "bytes": 11962350,
+      "sha256": "637cab741fb398deffddffb042e30fa3ad536b604e8e09bfc6b28f720dc523bc"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9484.JPG",
+      "destination": "archive/photography/taiwan/IMG_9484.JPG",
+      "bytes": 31936479,
+      "sha256": "9c2abeaca2188c98cdfd0bc8f32fc75df4fd1d94b4f062b3a8b322bf7c721c95"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9486.JPG",
+      "destination": "archive/photography/taiwan/IMG_9486.JPG",
+      "bytes": 11732195,
+      "sha256": "793034e8ac3bf7a8589d72165eec6c9ed26ef6ae63a04cf6baf02fdbe271fa99"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9551.JPG",
+      "destination": "archive/photography/taiwan/IMG_9551.JPG",
+      "bytes": 18064626,
+      "sha256": "0f1684779b7599adeda5b06c6b42b19c699cf0a0a4eb79cebbe61ce6862b595a"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9557.JPG",
+      "destination": "archive/photography/taiwan/IMG_9557.JPG",
+      "bytes": 16672987,
+      "sha256": "1d68f80d18ffff7d5c0675466d878c55c3a0ec04ce95c117e08bcf9cdc5dc017"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9564.JPG",
+      "destination": "archive/photography/taiwan/IMG_9564.JPG",
+      "bytes": 14787786,
+      "sha256": "c1abf0bfc9c20ffc20ecda98f0ef37d3a104c4a931ca2b55354d7b241079f29c"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9573.JPG",
+      "destination": "archive/photography/taiwan/IMG_9573.JPG",
+      "bytes": 15385255,
+      "sha256": "48c9f539901a4b8dcdbf4d71007472eb4df80015468fc31aa8768bf255646bcc"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9582.JPG",
+      "destination": "archive/photography/taiwan/IMG_9582.JPG",
+      "bytes": 15144617,
+      "sha256": "1ded6835116a0dd5dc19466ccdebc155246040e7a91421e2247209d90ab07a24"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9609.JPG",
+      "destination": "archive/photography/taiwan/IMG_9609.JPG",
+      "bytes": 14030616,
+      "sha256": "a2e51fa6c0c24bd298cc3010c3b01bb8ba4a34f1bff52ea16933f2aad1a2d2f9"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9617.JPG",
+      "destination": "archive/photography/taiwan/IMG_9617.JPG",
+      "bytes": 14825732,
+      "sha256": "a453157ad7ca0e79dd445a9e7617c9f918625452cee4f8a7f9cb3559817336a6"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9704.JPG",
+      "destination": "archive/photography/taiwan/IMG_9704.JPG",
+      "bytes": 14369645,
+      "sha256": "0e47957b9f120a93f9378bf3932cdead258d66bf8fa873ad56163f555b4afe49"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9733 2.JPG",
+      "destination": "archive/photography/taiwan/IMG_9733 2.JPG",
+      "bytes": 22403904,
+      "sha256": "b72cc6ea6861742a6fa705c4600d427bdba7caecb5717fdf24f2d2cadc9eb468"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9746.JPG",
+      "destination": "archive/photography/taiwan/IMG_9746.JPG",
+      "bytes": 18241921,
+      "sha256": "f31c8e2480917c3585163c5d1a847797a97a2dc8a576eebcc8322609c429eb4d"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9781.JPG",
+      "destination": "archive/photography/taiwan/IMG_9781.JPG",
+      "bytes": 12297068,
+      "sha256": "6d78aea1060b0bf9dd26a7996805f1da25830011f6de781401ad30ef7b7a548e"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9815.JPG",
+      "destination": "archive/photography/taiwan/IMG_9815.JPG",
+      "bytes": 14443995,
+      "sha256": "8de52c4a96805b786c346e183179bed83b7f0f5b567d5d2fd47d2efdad498b72"
+    },
+    {
+      "source": "public/img/photography/taiwan/IMG_9903.jpg",
+      "destination": "archive/photography/taiwan/IMG_9903.jpg",
+      "bytes": 6629550,
+      "sha256": "33b3f67fbbf84b935c3d6044e60a9ae8c070b6943ec1c7540a5dfaf02c991fc0"
+    },
+    {
+      "source": "public/img/photography/taiwan/NJZ-how-sweet-v.PNG",
+      "destination": "archive/photography/taiwan/NJZ-how-sweet-v.PNG",
+      "bytes": 81786149,
+      "sha256": "d0255debdb00dbde5b789eb33ce5bdedb201ff3f69da5d2c64ec4823f12181f0"
+    },
+    {
+      "source": "public/img/photography/taiwan/NJZ-how-sweet.PNG",
+      "destination": "archive/photography/taiwan/NJZ-how-sweet.PNG",
+      "bytes": 92841330,
+      "sha256": "48b791b43cff4a68be1ef4062cbc34b96cc8be73175a1f323e732cbb221a8d85"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_0231.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_0231.webp",
+      "bytes": 620726,
+      "sha256": "a1c30e42c9c5e5493711a98e45ff3458cf2567ddea52d6e0f7db7e2aa4e8e40c"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_0474.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_0474.webp",
+      "bytes": 618682,
+      "sha256": "5a0a9ec347b1aa22ed7f426e8e9580c3510c815ad53b42dc79a833d12cf97ebe"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_1139.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_1139.webp",
+      "bytes": 708880,
+      "sha256": "6ae9cedb7310638eaeaf97f20e12d8bcfc25136ffd21cbb7d176a226db1cc016"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_1184.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_1184.webp",
+      "bytes": 355342,
+      "sha256": "b08ad99cf3d58f53bc84d3d209a3b5b76403c63dc9491a9118ffada8f09afee5"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_1228.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_1228.webp",
+      "bytes": 264598,
+      "sha256": "6a413a1e73433ce48bc37cd0b6ad80330c557b4559294ec7ae47aac969d54f8f"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_1349.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_1349.webp",
+      "bytes": 677832,
+      "sha256": "214327c0511ece6ebb4ddac205ff7ed3be75b3747cd9e683d1de74121ef00f62"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2256.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2256.webp",
+      "bytes": 758710,
+      "sha256": "339dcfb66b74b9d7faa31e1ffa9da63489b3cb8686b1694bcdbd9a6400d304cb"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2441.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2441.webp",
+      "bytes": 795508,
+      "sha256": "05d119793503784d12273631e863db935f2585816695c89a95630d2f84457e22"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2444.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2444.webp",
+      "bytes": 158374,
+      "sha256": "5bcbb520130c204dd30c97ec61f3f4cbdff46b2aa7c24d25245642a2b5462b7c"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2456.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2456.webp",
+      "bytes": 131128,
+      "sha256": "7724b0e4dbea6ffcbc28f01b2b43fef83a2f670a6fe033d07fad943e8a6138f0"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2457.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2457.webp",
+      "bytes": 403754,
+      "sha256": "1451401f1099c3cfb8c53daa059b63b361a25114c4bc30c552e76438613c846e"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2458.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2458.webp",
+      "bytes": 160010,
+      "sha256": "b19b3696781a96ce233fd92d7ec30c14d2f2558585d6414b429f16f9651ef4d1"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2704.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2704.webp",
+      "bytes": 319220,
+      "sha256": "7ea5d1c7f172b30f2b7560d6f9e7d20b1bf4e62525beddba54b57ea8607eccdd"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2826.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2826.webp",
+      "bytes": 276528,
+      "sha256": "18718a8e921b1336a4e8abb5b06d83e2c3fa0ef2586ba27ab3b3a4a20974f8e5"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2834.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2834.webp",
+      "bytes": 188106,
+      "sha256": "5bb6cd48be03780d0f2beef96723319cdfad39a2a32c22ce04f9f67830e1d89c"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_2884.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_2884.webp",
+      "bytes": 584488,
+      "sha256": "421ffe253cddae03aafac0b3eae7a623c255b0ec7c28c9563436005f8c0cfcf7"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3176.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3176.webp",
+      "bytes": 117616,
+      "sha256": "7d964a59dbf23052c654769b9f779529e533264b3c84f74f5615fdffa7dbed01"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3225.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3225.webp",
+      "bytes": 119636,
+      "sha256": "e9ad580055af87e489fde4a6c640af4e353136f07a3e6af100365d298a58ef36"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3392.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3392.webp",
+      "bytes": 351062,
+      "sha256": "e29aa61185380c8e2d9227b80076f019ce7a05eae45df26a8c75bcf943387ae3"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3450.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3450.webp",
+      "bytes": 172142,
+      "sha256": "ae408b21cf284f277cd53176cfdf7134a79e248f930223d602ba112aa46d4d50"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3520.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3520.webp",
+      "bytes": 254670,
+      "sha256": "d1c0f5da2bc824d9cd69ce42273dc2f895ae6e06d7fada1261b30ee4195128fc"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_3597.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_3597.webp",
+      "bytes": 397572,
+      "sha256": "ddf85be358e9317453ecde21e7ccb75d9fe0c454666b46a64d0650b7c141f826"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4019.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4019.webp",
+      "bytes": 207950,
+      "sha256": "f1ae73b1febad19303297dc29cf0e6c6ac9076ea5d7aab37d372ce25de243b2f"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4052.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4052.webp",
+      "bytes": 163328,
+      "sha256": "65e50770103b1c987386c8973472f3e4395425d2287c681ff6063111a52885f4"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4103.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4103.webp",
+      "bytes": 128994,
+      "sha256": "4dbbcb1a92cb9690b511392bee152cbf4e62aba07fe226615287b504d8d99e77"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4218.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4218.webp",
+      "bytes": 120722,
+      "sha256": "702292a9dfcec6c7a9cb3cb454a8a678f9ef73b7754ba974fb8fceccef7ae81b"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4342_2.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4342_2.webp",
+      "bytes": 794392,
+      "sha256": "3c3ef69129faf4384c22c6a291f61f9d2f4c96954594a397d38945cdb53e6b5a"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_4979.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_4979.webp",
+      "bytes": 250090,
+      "sha256": "8527b8c85d963469d20fd8417adc729c45151a9c184f20ffd0b90de86116be0e"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_6247.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_6247.webp",
+      "bytes": 263486,
+      "sha256": "a20e798b49797ba3c33857f24d04388c2aaeea4e13aea015bc15762e3b75437d"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_6346.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_6346.webp",
+      "bytes": 863458,
+      "sha256": "bc9d604e468e12071a619da939fcab0e5537f3325561f6d806ada2213d9eda0b"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_6753.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_6753.webp",
+      "bytes": 251150,
+      "sha256": "6d4cd6568581a052ec5a86807d1071422d7c1be389a07d282c7c249ebd265895"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7030.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7030.webp",
+      "bytes": 150072,
+      "sha256": "83635834477a37b609c4d519523a708c9044e19161806d37c576d81c162726ad"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7119.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7119.webp",
+      "bytes": 160752,
+      "sha256": "542ab968eccb7aef8eebf7abdb8f4fffebfe8a139f8e346986d164d9f49551e1"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7223.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7223.webp",
+      "bytes": 129780,
+      "sha256": "669eac94f520649dafb601d02deb4f00b1192fe17d60dfd365b95bf4736a892f"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7878.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7878.webp",
+      "bytes": 435706,
+      "sha256": "e6c2717256aff38ef86e8f050cac39ed71774deb561112639033542868698f91"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7917.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7917.webp",
+      "bytes": 486690,
+      "sha256": "4d9724389aec339cf030d3575e736f5294198e16cb1986db85abe89b87c0f573"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7924.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7924.webp",
+      "bytes": 527980,
+      "sha256": "3fc24a5fa4bf8b1ce0978e5d89c4b3e2e2a90ff348322d8443b4eb7d35bf8ff9"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7938.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7938.webp",
+      "bytes": 582112,
+      "sha256": "158f8e959cc7909ec5e994a391e7960bd0e2681e0c0abce491ae8ed62e6ee940"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7950.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7950.webp",
+      "bytes": 668272,
+      "sha256": "23b5c11539b29f7f5dadf2b827325cfd007b97983c0b148c0fe5f3675f5a72f9"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_7964.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_7964.webp",
+      "bytes": 485820,
+      "sha256": "4edcfd2706d7bfa47c2f21393c9bcb5a5d9574731cea3c5758dfeda5821d9cf9"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_8033.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_8033.webp",
+      "bytes": 395098,
+      "sha256": "4b221beefe26fbcbaf391b1f235e1d8f7688319b4a96f10c18f83be56d9f6a22"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_8064.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_8064.webp",
+      "bytes": 206176,
+      "sha256": "d679911381700e1f9c31c3a2d50e26d186c94e48d5795b2ac7d37e8b8f8c4a1e"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_8151.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_8151.webp",
+      "bytes": 281140,
+      "sha256": "7aa04b3a47c259d5b310a8e57b0477e9ee0f72f71798c908e1bb09a3fa703303"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_8577.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_8577.webp",
+      "bytes": 282434,
+      "sha256": "f864a425bd8bdd54e8bc74dd650c05d8651fe9f10a248ce092283f636875e63a"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_8821.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_8821.webp",
+      "bytes": 681674,
+      "sha256": "d1fdcca5d770a7e6d917f5080a69242d5070bf21b052fa405b039be9f0b4b596"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9352.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9352.webp",
+      "bytes": 90880,
+      "sha256": "a32cc7beda302f90cb10575ab25d703c9d1a875486e7ac8ad0617544ae502a29"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9393.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9393.webp",
+      "bytes": 712480,
+      "sha256": "f3dd340f22079d1928b7fbe7d6f3ea913d8a27204df28e9a708a1938273ef519"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9396.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9396.webp",
+      "bytes": 250490,
+      "sha256": "9260d88a24095aac18d8f7a3bf2393c2c940291593ce30606e3af5e522f9cd9c"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9477.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9477.webp",
+      "bytes": 218334,
+      "sha256": "ec0a861ca3de29861ec8d96461551b3905cb36766aff72ee78682229ee7073d7"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9484.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9484.webp",
+      "bytes": 493296,
+      "sha256": "4c3ab9d2d87d188e3b27c46ba453a8ca787df2c2db2dd4cd6aa671884591e9fa"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9486.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9486.webp",
+      "bytes": 200742,
+      "sha256": "1957f639e11445c00efc53f1df832c8cdf3d7d588ef088c9a38aa27f22a4f2ac"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9551.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9551.webp",
+      "bytes": 432190,
+      "sha256": "d059eb3b32ff64b8c6ce99038e544c345cf79f8e553ef95f1a726cdc190c8b05"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9557.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9557.webp",
+      "bytes": 456518,
+      "sha256": "571e1a7839bdbd5dd26ce2f92e07f6cee16bf01b6dc724bdc74a79c65d0e5ab0"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9564.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9564.webp",
+      "bytes": 476668,
+      "sha256": "b7968c876dac3dafe033ccb940db5a848cd5c5f5a5053c323e6edb0b44be263d"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9573.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9573.webp",
+      "bytes": 455760,
+      "sha256": "cfeef12d7f5f88864a85f520e90c403ab646df7651930745143a8513bc18a625"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9582.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9582.webp",
+      "bytes": 424962,
+      "sha256": "e888c44ebc2f518c371cc75ea112dfd725a5f42ec58809c34aab6516fb01b5a3"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9609.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9609.webp",
+      "bytes": 490520,
+      "sha256": "3ed0deee169f02a9b8c0fff278456d55367045d0e56c67b64147567e80289db1"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9617.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9617.webp",
+      "bytes": 374402,
+      "sha256": "527d35a2fddb2084513e565c20f848e97c513257b230c39a4e79cc4e17e8dd5e"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9704.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9704.webp",
+      "bytes": 659756,
+      "sha256": "c833a2a5dbc859de826c06e2c8142dbad9ed02153f1ea965142fc3ed4ac074f8"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9733_2.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9733_2.webp",
+      "bytes": 492050,
+      "sha256": "167540aeb119eca8b01361fcb36f056d736c86217f40d5e9eeffc1688a1416d6"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9746.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9746.webp",
+      "bytes": 570110,
+      "sha256": "497fe3a6d66e74123d2e77e8acfe6a4cd75437b42ac2937faac235a2c717c3f0"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9781.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9781.webp",
+      "bytes": 628968,
+      "sha256": "f80bd7abafe3636ec06a196b5567416df4c82150eb45e0944dbc81cc8dfb77cf"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9815.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9815.webp",
+      "bytes": 1096576,
+      "sha256": "65bf5b4f8410059b28dd87c886f7d83c340c6b4f96ed5708fb619c919384b277"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/IMG_9903.webp",
+      "destination": "public/img/photography/taiwan/web/IMG_9903.webp",
+      "bytes": 376422,
+      "sha256": "74d5ad1da3e6bfe5e471ddff384477b5087e266975c19eb2082fa64ff97bc946"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/NJZ-how-sweet-v.webp",
+      "destination": "public/img/photography/taiwan/web/NJZ-how-sweet-v.webp",
+      "bytes": 428074,
+      "sha256": "68fd5eb449a1f5dd9539aff6ca307560122c1ba88c41e25561a2ee0edc96be22"
+    },
+    {
+      "source": "public/img/photography/taiwan/web/NJZ-how-sweet.webp",
+      "destination": "public/img/photography/taiwan/web/NJZ-how-sweet.webp",
+      "bytes": 192684,
+      "sha256": "0725720c4faff4205b5842d25645f9e881bc9b79ea602f92e542d1099fcbe656"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_1832.JPG",
+      "destination": "archive/photography/tokyo/IMG_1832.JPG",
+      "bytes": 10666083,
+      "sha256": "115fd4f36ac9b2f68a869d4a044c1d3c1d394e6b7cce4d8292ab8fb8a53f8923"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_1904 2.JPG",
+      "destination": "archive/photography/tokyo/IMG_1904 2.JPG",
+      "bytes": 8830773,
+      "sha256": "ba66ef25c71ee00407ded26b5b9963148af6dbe7ebab64f9f0a12614c185b0c5"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_3871 2.JPG",
+      "destination": "archive/photography/tokyo/IMG_3871 2.JPG",
+      "bytes": 21539849,
+      "sha256": "f9dba93b938d797225542539bd799947f1c79c748c96e3523251fd00663e846c"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4035 2.JPG",
+      "destination": "archive/photography/tokyo/IMG_4035 2.JPG",
+      "bytes": 11024571,
+      "sha256": "26204a94f5cbfb2b15495895934c69a6635886bedb3d1a5358fec7cf9b8d76de"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4063.JPG",
+      "destination": "archive/photography/tokyo/IMG_4063.JPG",
+      "bytes": 9080333,
+      "sha256": "c0a1cfb73e20ae3b2504cc1bb116a1b93ff8d34f7a75ae12abe871c03da31557"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4232.JPG",
+      "destination": "archive/photography/tokyo/IMG_4232.JPG",
+      "bytes": 22438977,
+      "sha256": "a8c99b6290ae74498e0b03512cae66fd35bda84f69ffa9df0e7dfd867e1dc016"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4234.JPG",
+      "destination": "archive/photography/tokyo/IMG_4234.JPG",
+      "bytes": 19580748,
+      "sha256": "eb0c091cc979a2fb00eb1380f62945bffe509c0d18330476508af7074c0215f6"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4301.JPG",
+      "destination": "archive/photography/tokyo/IMG_4301.JPG",
+      "bytes": 23316625,
+      "sha256": "72200d51c0352707b4ecef83046b2de8b7d938cdf3ae0d812a568e3253ea070d"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4520.JPG",
+      "destination": "archive/photography/tokyo/IMG_4520.JPG",
+      "bytes": 10490424,
+      "sha256": "a6b64e554d30a34b772afe8295cd12d2c5101aeb3a2af22bf195c55c92a6c82f"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4626.JPG",
+      "destination": "archive/photography/tokyo/IMG_4626.JPG",
+      "bytes": 14721966,
+      "sha256": "483a1d05cfdf7e20445b5ddb51c1efbd3cd00ebdd8fa2a999ee64f57ea7520f2"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4649.JPG",
+      "destination": "archive/photography/tokyo/IMG_4649.JPG",
+      "bytes": 12994172,
+      "sha256": "188edcaac4e1d1c1bacaf8f599af6e626efd684185f1fcbe1df6c87c19036f29"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4873.JPG",
+      "destination": "archive/photography/tokyo/IMG_4873.JPG",
+      "bytes": 11503085,
+      "sha256": "3c2ccdcb03e0a4110d7bee18333d7962054915a3bb8294438e1f454ea9df3aff"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4877.JPG",
+      "destination": "archive/photography/tokyo/IMG_4877.JPG",
+      "bytes": 12695393,
+      "sha256": "f686c4231500da9ffb968655214f2a9708e51924077a3573532f3efd8522bc4f"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4883.JPG",
+      "destination": "archive/photography/tokyo/IMG_4883.JPG",
+      "bytes": 16234324,
+      "sha256": "f8a91791b2d361bac548b0eb50b4d16b7f59ee8b48d93b18e1b0993460b53ae8"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4924.JPG",
+      "destination": "archive/photography/tokyo/IMG_4924.JPG",
+      "bytes": 13245970,
+      "sha256": "c518dd63f493196a615a82599bc98184954f6a0c5524e20ba6998682618824da"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4929.JPG",
+      "destination": "archive/photography/tokyo/IMG_4929.JPG",
+      "bytes": 14002783,
+      "sha256": "1ebd3a8366f304aae9fefa7f225ff1be23f58a6d7f53798af3677fde674f9531"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4936.JPG",
+      "destination": "archive/photography/tokyo/IMG_4936.JPG",
+      "bytes": 13246191,
+      "sha256": "4ea34c00f9a7abf94b9b1a1a31b82f8c192c5db7b2aec3fa65a1b53cc9482e2d"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_4977.JPG",
+      "destination": "archive/photography/tokyo/IMG_4977.JPG",
+      "bytes": 12748417,
+      "sha256": "7c503b40a5c216e5afe4801c11d386e7bae05e305dd795afaf92802b9502a076"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5035.JPG",
+      "destination": "archive/photography/tokyo/IMG_5035.JPG",
+      "bytes": 15925798,
+      "sha256": "614eea02f8c05787d894a11a7d1fec263f9afbbf02e1b00f8ccfca69a4e44988"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5040.JPG",
+      "destination": "archive/photography/tokyo/IMG_5040.JPG",
+      "bytes": 12517058,
+      "sha256": "6e0ee0ff312ab4bc4ee4a16e5021fc386004c2a423b0002a74635dd994db3531"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5079 3.JPG",
+      "destination": "archive/photography/tokyo/IMG_5079 3.JPG",
+      "bytes": 10630769,
+      "sha256": "ac7af5b85888254dc40db90bee9b288cf40c7e8c33f102f60f7155f65cc49b3f"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5090.JPG",
+      "destination": "archive/photography/tokyo/IMG_5090.JPG",
+      "bytes": 19395156,
+      "sha256": "da4a46fc1c26e10831817cfde5d2affdc27399c24281adc0053c7d9544c69401"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5100.JPG",
+      "destination": "archive/photography/tokyo/IMG_5100.JPG",
+      "bytes": 15781161,
+      "sha256": "216374f4cdbcc787e0edcc94e9c3ca20893711a8623d7b8b3fc4a1e68e242392"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5115.JPG",
+      "destination": "archive/photography/tokyo/IMG_5115.JPG",
+      "bytes": 4908797,
+      "sha256": "73e1e1c2151c15dbcbac33f9b79e04c981680da02b5a0503f039e4e9b66b0dcf"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5230.JPG",
+      "destination": "archive/photography/tokyo/IMG_5230.JPG",
+      "bytes": 11756017,
+      "sha256": "10019287ff57f5709a1359a0afa28feb4d2c79035225a5279e5e975c5618343e"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5724.JPG",
+      "destination": "archive/photography/tokyo/IMG_5724.JPG",
+      "bytes": 13620300,
+      "sha256": "9c65fdedb76c178641c56ae402e83045924136ec4028da51473a403bab8ab4f9"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5818.JPG",
+      "destination": "archive/photography/tokyo/IMG_5818.JPG",
+      "bytes": 17354576,
+      "sha256": "a7a46702e7c6079e411aece41256004dacc6e8812d49f10d47db87fd4f7cc929"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5820.JPG",
+      "destination": "archive/photography/tokyo/IMG_5820.JPG",
+      "bytes": 14891896,
+      "sha256": "1897a5f0d50e0cbd73a2b016d540fc8202c58556bcc72912d99656c94c83a741"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5828.JPG",
+      "destination": "archive/photography/tokyo/IMG_5828.JPG",
+      "bytes": 15816881,
+      "sha256": "5ed3c2e6ec1883757f93b3215cfd7a5184300d9a3835402102a75a57d286b929"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5829.JPG",
+      "destination": "archive/photography/tokyo/IMG_5829.JPG",
+      "bytes": 14623491,
+      "sha256": "d8aaad28a88ed0c2b8fa5814f5e89fdd554915dee0dc2fe9513ed3cb24322137"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5925.JPG",
+      "destination": "archive/photography/tokyo/IMG_5925.JPG",
+      "bytes": 15612251,
+      "sha256": "63375eb33ff6eb721053fbcbedc2825bbb54847515b54d2a6abc33f8cc6c096c"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5954.JPG",
+      "destination": "archive/photography/tokyo/IMG_5954.JPG",
+      "bytes": 14734592,
+      "sha256": "f95dd7dc01e1e45664f08dec2a1cd7cb229f491bea87fe2061f2e83fd8412b3a"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5962.JPG",
+      "destination": "archive/photography/tokyo/IMG_5962.JPG",
+      "bytes": 14986313,
+      "sha256": "b183fa0c2d659e81480e92ceeff9e8650e330fd509c9789a607c8da7fdc22890"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5975.JPG",
+      "destination": "archive/photography/tokyo/IMG_5975.JPG",
+      "bytes": 14698775,
+      "sha256": "49afaa31b9c1e2183b84b78ca3f21edeff2758422b171820b1f804848ee21b4c"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_5988.JPG",
+      "destination": "archive/photography/tokyo/IMG_5988.JPG",
+      "bytes": 15281175,
+      "sha256": "6d430494c8196f3c39976ef294ddc7daecdf49cdaa02c6bcee55aa5efa007c5d"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6075.jpg",
+      "destination": "archive/photography/tokyo/IMG_6075.jpg",
+      "bytes": 5005454,
+      "sha256": "5f3e5e87532f478a2b4fc3df38b24c0d39b2cccb15d5c37457c4a64c38aafb4b"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6236 2.JPG",
+      "destination": "archive/photography/tokyo/IMG_6236 2.JPG",
+      "bytes": 12483036,
+      "sha256": "18c02d8f3d5816957ff9b76c266414e7ca56dafa744d3ce36c52d5c360300347"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6377.JPG",
+      "destination": "archive/photography/tokyo/IMG_6377.JPG",
+      "bytes": 13677804,
+      "sha256": "97edefb5f20f849bd24348187ded2d900c6093e97489d24bff06d8c4884cec87"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6426.JPG",
+      "destination": "archive/photography/tokyo/IMG_6426.JPG",
+      "bytes": 16111709,
+      "sha256": "2d1f694e31a8b4da93c96b6ed3b2163f19b167e6bce2829d868eecf8cfa0964d"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6657.JPG",
+      "destination": "archive/photography/tokyo/IMG_6657.JPG",
+      "bytes": 16591308,
+      "sha256": "cdf97cd6504fe6fa403223b4b6c3f0f26817de75a299da081b206d8e76894f60"
+    },
+    {
+      "source": "public/img/photography/tokyo/IMG_6887.JPG",
+      "destination": "archive/photography/tokyo/IMG_6887.JPG",
+      "bytes": 9743059,
+      "sha256": "6e50d0aa63be9a3f1a3e42991df0b20eab5a63826327f08765d405639b6498fe"
+    },
+    {
+      "source": "public/img/photography/tokyo/tokyo_banner.jpg",
+      "destination": "archive/photography/tokyo/tokyo_banner.jpg",
+      "bytes": 5640270,
+      "sha256": "665d67ba5bad076ba0da1c2ec79372674613113066a5cc0964a5bba367cdb924"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_1832.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_1832.webp",
+      "bytes": 255006,
+      "sha256": "edd5abd284598c825433a8f0a0de94227ab9eabbe4a149f8918183b8b21acf66"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_1904_2.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_1904_2.webp",
+      "bytes": 136356,
+      "sha256": "f1b1bc8a4fc5e7521e842531b418bf0bd926fbf4ad96d47b2d742f231a23a94c"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_3871_2.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_3871_2.webp",
+      "bytes": 321222,
+      "sha256": "6ac8901014c7f8bc8570a918c7d577b5b4f6e2738b04db79587d205a2bf37718"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4035_2.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4035_2.webp",
+      "bytes": 350754,
+      "sha256": "35d934bae8006267e18dc3225d3ee14b0fe3f7fd259337bf2c8f7335cc9bfdee"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4063.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4063.webp",
+      "bytes": 281138,
+      "sha256": "e708462ea0f543244dd8cf399cc51ba0878fea1c98716be87a45c01d05d8e18d"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4232.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4232.webp",
+      "bytes": 265656,
+      "sha256": "23206cd500e9c97e54943d81f4cf75f3f3d7512b02642bb2a75aaaedb16938eb"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4234.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4234.webp",
+      "bytes": 554136,
+      "sha256": "be7c815d2fd4e71ff01ee5efe9e958962bd89b05561d051c90d842dff9971648"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4301.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4301.webp",
+      "bytes": 854798,
+      "sha256": "265ffc8a22b8cfc1952aeeb863be7292a86e3757bcea8a6f8a619125248b2a16"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4520.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4520.webp",
+      "bytes": 437134,
+      "sha256": "11103ce35bd7a858d18d0b212a96c40c2e15db29e8574a8a77657cf6c84fbf8d"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4626.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4626.webp",
+      "bytes": 766664,
+      "sha256": "3e97b58af044a6f4d3967cbfc3d33004d27f55d1c09e77f29e27078f38de8576"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4649.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4649.webp",
+      "bytes": 581390,
+      "sha256": "8d04233e4c78700df6d8ecc247c80bd432430047f04c6d725518e2c2495c0533"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4873.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4873.webp",
+      "bytes": 292218,
+      "sha256": "d2bdcba60fede133b79cfe9affd42963b586c325d1291c105ec4d7c357446c8c"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4877.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4877.webp",
+      "bytes": 438450,
+      "sha256": "bff600112669623ab9f76d8a0186e1ab3fbd4d8bc36eef4daaf405161da8d658"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4883.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4883.webp",
+      "bytes": 572316,
+      "sha256": "5e2344da282586ea41b1ca8e33052da28c04f727487ddbd2da57b0b89b5d4abc"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4924.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4924.webp",
+      "bytes": 333930,
+      "sha256": "9c8999b677331975f97d40c8c442f497d1794b5903da37bba2a226808df3912e"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4929.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4929.webp",
+      "bytes": 771050,
+      "sha256": "c1ec7c14a06e68895e2f201a3fc7f143bfaf653c5b7e4d1786015f153a3fa915"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4936.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4936.webp",
+      "bytes": 577590,
+      "sha256": "8a8b743b871aa8c19fd6051499503e0ce63285b725445812d887de89d0ad90b5"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_4977.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_4977.webp",
+      "bytes": 717512,
+      "sha256": "e3a3d321cabfa32e4599d1c93245c5797511ad274fb0ff43a856c5c6d3593e20"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5035.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5035.webp",
+      "bytes": 158518,
+      "sha256": "4565bc1e36f8bfafb6ae3f00778de21e6ba75dd889d6f00aecdb0126da3e898a"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5040.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5040.webp",
+      "bytes": 388462,
+      "sha256": "e33b6d9af6755c018f211665fc0f69e2d181378c3b54c8a795a2e43b0587a488"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5079_3.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5079_3.webp",
+      "bytes": 309844,
+      "sha256": "1c0790129925e5af89caf25eed670511395bdf4de7bc118b35caeae834907020"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5090.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5090.webp",
+      "bytes": 277688,
+      "sha256": "93637663c4279cfcc2c31d1813dfd28987afe26f73670a1ee0706dbee4c04ed8"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5100.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5100.webp",
+      "bytes": 685174,
+      "sha256": "e5ab74f07bf509a17bf464d754ddfda3b916a96461d2657b61092731083cb3a9"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5115.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5115.webp",
+      "bytes": 634928,
+      "sha256": "1045aa2d19d2894e474f319d6d2735b439e9dd2b0846f280782032d106f804df"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5230.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5230.webp",
+      "bytes": 371902,
+      "sha256": "de14eb60398df783def6adf4fe85c6c783dede87a4d8523ed54b2bb023b2cf18"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5724.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5724.webp",
+      "bytes": 258780,
+      "sha256": "e271d2444b1e28c623cd8a1a36ea5ac40f761ad80594fa3b9d7c2e1af9db1d9c"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5818.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5818.webp",
+      "bytes": 978226,
+      "sha256": "f975a946a974ae4fa7a56e1768c55e5d81c53ca56f475f024b5983b12e4a24f0"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5820.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5820.webp",
+      "bytes": 410868,
+      "sha256": "8b2e9df5e8a26bdf8bb2a2f0aecc5011c9f98eb12df325cea10adef27d472cd9"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5828.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5828.webp",
+      "bytes": 500974,
+      "sha256": "ca7f11e3bd4aaf37b5b25e56bd6a6eb5ce22b1947fd746b5d1c0ad8029a60fd9"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5829.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5829.webp",
+      "bytes": 411126,
+      "sha256": "1dde1007a2ff6d8b1e78517a5fecf4a38b22f4caf6ddbefe8f804c605d18063f"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5925.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5925.webp",
+      "bytes": 299072,
+      "sha256": "3bc84330a3988a4e9e2fa5cbb99942973559dd34878f7ac48e609d0b6c314c2d"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5954.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5954.webp",
+      "bytes": 538406,
+      "sha256": "7b381921c023861185e480d20cdb3d84c7ed2e23b5f41563d1f1e53472ea4e90"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5962.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5962.webp",
+      "bytes": 670674,
+      "sha256": "fd2ebe9d106828ad7771d9c147408329de7c95355ac3af8106da0b3360f1c610"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5975.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5975.webp",
+      "bytes": 514162,
+      "sha256": "b017cd03ba6b3021b311e8573d87b5d60e3d0c783ce17628e916041e47089022"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_5988.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_5988.webp",
+      "bytes": 506252,
+      "sha256": "f15fe910f1f4b2d2f6babec99b67d9ac59681bbd1fdc723d78fe911c74040f14"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6075.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6075.webp",
+      "bytes": 401770,
+      "sha256": "6081456372cf154cf4436460e43cc34e9d32303f24dfb2bcf58577117d221f6d"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6236_2.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6236_2.webp",
+      "bytes": 216520,
+      "sha256": "5ad514db578ba082620420d304d5185a6545cacc765f010b52a88b5cc54d5e40"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6377.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6377.webp",
+      "bytes": 267858,
+      "sha256": "cac968360354e77da1beeb82f83b3a1aa41beb2ef02eb4d6736712f9dd4c6819"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6426.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6426.webp",
+      "bytes": 685524,
+      "sha256": "ebf16e8ab8b3854b68896e45d2cdfb6cadf1130238b16b3f5fe090721444a2a5"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6657.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6657.webp",
+      "bytes": 627362,
+      "sha256": "47f2f892d908ee4b8cdc851a2022874cd6e23417376131c6a91a37bfbcb601c8"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/IMG_6887.webp",
+      "destination": "public/img/photography/tokyo/web/IMG_6887.webp",
+      "bytes": 249460,
+      "sha256": "b8ca73bd5dcec7a622a582927635bbdf74b917c9162510a7cf18bc149f23a9b4"
+    },
+    {
+      "source": "public/img/photography/tokyo/web/tokyo_banner.webp",
+      "destination": "public/img/photography/tokyo/web/tokyo_banner.webp",
+      "bytes": 341192,
+      "sha256": "b8c9ecf871919b2cd43ca31944fee289f70981f850b924a013465558a0500f7a"
+    }
+  ]
+}

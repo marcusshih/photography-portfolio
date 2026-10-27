@@ -1,0 +1,27 @@
+---
+interface Props {
+  hero?: boolean;
+}
+const { hero = false } = Astro.props;
+const path = Astro.url.pathname;
+---
+
+<header class:list={["site-header", { "over-hero": hero }]}>
+  <a class="wordmark" href="/" aria-label="Marcus Shih photography, home">
+    Marcus Shih<span class="wordmark-sub">Photography</span>
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="/" aria-current={path === "/" ? "page" : undefined}>
+      Selected
+    </a>
+    <a
+      href="/#collections"
+      aria-current={path.startsWith("/collections/") ? "location" : undefined}
+    >
+      Collections
+    </a>
+    <a href="/about/" aria-current={path === "/about/" ? "page" : undefined}>
+      About
+    </a>
+  </nav>
+</header>

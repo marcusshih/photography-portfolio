@@ -1,0 +1,105 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Gallery from "../../components/Gallery.astro";
+import {
+  albums,
+  coverFor,
+  imageFor,
+  yearsFor,
+  type PhotoAlbum,
+} from "../../data/gallery";
+export function getStaticPaths() {
+  return albums.map((album) => ({
+    params: { album: album.slug },
+    props: { album },
+  }));
+}
+interface Props {
+  album: PhotoAlbum;
+}
+const { album } = Astro.props;
+const cover = coverFor(album);
+const image = imageFor(cover);
+const index = albums.findIndex((item) => item.slug === album.slug);
+const next = albums[(index + 1) % albums.length];
+const nextCover = coverFor(next);
+const nextImage = imageFor(nextCover);
+// Keep the original album order intact; its chosen banner is an independent introduction.
+const entries = album.photographs.map((photo) => ({ photo, album }));
+---
+
+<Layout
+  hero
+  title={`${album.title} — Marcus Shih`}
+  description={
+    album.description ??
+    `${album.photographs.length} photographs from ${album.title}, ${album.region}. A collection by Marcus Shih.`
+  }
+>
+  <main id="main" tabindex="-1">
+    <section class="hero album-hero" aria-labelledby="album-title">
+      <img
+        class="hero-image"
+        src={cover.src}
+        srcset={image.srcset}
+        sizes="100vw"
+        width={image.width}
+        height={image.height}
+        alt={cover.alt}
+        fetchpriority="high"
+        loading="eager"
+      />
+      <div class="hero-shade"></div>
+      <div class="hero-topnote">
+        <a href="/#collections">← All collections</a>
+        <span>Collection 0{index + 1} / 04</span>
+      </div>
+      <div class="hero-title">
+        <p class="eyebrow">
+          {album.region} / {yearsFor(album)}
+        </p>
+        <h1 id="album-title">{album.title}</h1>
+      </div>
+      <div class="hero-bottom">
+        <a href="#photographs">
+          {album.photographs.length} photographs{" "}
+          <span aria-hidden="true">↓</span>
+        </a>
+        <a href={cover.src} data-photo={cover.src}>
+          View photograph ↗
+        </a>
+      </div>
+    </section>
+    <section
+      id="photographs"
+      class="album-gallery-section"
+      aria-labelledby="album-gallery-title"
+    >
+      <div class="album-intro section-shell">
+        <h2 id="album-gallery-title" class="eyebrow">
+          {album.title} / The collection
+        </h2>
+        {album.description && <p>{album.description}</p>}
+        <span class="eyebrow">{yearsFor(album)}</span>
+      </div>
+      <Gallery entries={entries} />
+    </section>
+    <a class="next-collection" href={`/collections/${next.slug}/`}>
+      <img
+        src={nextCover.src}
+        srcset={nextImage.srcset}
+        sizes="100vw"
+        width={nextImage.width}
+        height={nextImage.height}
+        alt=""
+        loading="lazy"
+      />
+      <div>
+        <p class="eyebrow">Continue exploring / Next collection</p>
+        <h2>
+          {next.title} <span aria-hidden="true">↗</span>
+        </h2>
+      </div>
+    </a>
+  </main>
+</Layout>

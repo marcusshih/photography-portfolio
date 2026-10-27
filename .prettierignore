@@ -1,0 +1,9 @@
+public/
+archive/photography/
+dist/
+.astro/
+node_modules/
+package-lock.json
+src/data/photography.ts
+src/data/image-sizes.json
+docs/migration-manifest.json

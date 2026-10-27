@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Photo from "../components/Photo.astro";
+import { selectedPhotos } from "../data/gallery";
+const entry =
+  selectedPhotos.find(({ photo }) => photo.title === "Orange against blue") ??
+  selectedPhotos[0];
+---
+
+<Layout
+  title="About — Marcus Shih"
+  description="Marcus Shih is a photographer based in New York and Taiwan, documenting cities, architecture, landscapes, and everyday moments."
+>
+  <main id="main" class="about-page section-shell" tabindex="-1">
+    <div class="about-copy">
+      <p class="eyebrow">About / The photographer</p>
+      <h1>
+        Looking.
+        <br />
+        <em>
+          And looking
+          <br />
+          again.
+        </em>
+      </h1>
+      <p>
+        Marcus Shih is a photographer based in New York and Taiwan, documenting
+        cities, architecture, landscapes, and everyday moments.
+      </p>
+      <p>
+        This collection moves between New York, Tokyo, Busan, and Taiwan —
+        tracing light, scale, memory, and quiet moments within each place.
+      </p>
+      <a class="text-link" href="/#collections">
+        Explore the collections ↗
+      </a>
+    </div>
+    <div class="about-photo">
+      <Photo entry={entry} eager />
+    </div>
+  </main>
+</Layout>

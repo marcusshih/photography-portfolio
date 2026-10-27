@@ -1,0 +1,144 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Gallery from "../components/Gallery.astro";
+import {
+  albums,
+  selectedPhotos,
+  coverFor,
+  imageFor,
+  yearsFor,
+} from "../data/gallery";
+const hero = coverFor(albums[2]);
+const image = imageFor(hero);
+---
+
+<Layout hero>
+  <main id="main" tabindex="-1">
+    <section class="hero home-hero" aria-labelledby="hero-title">
+      <img
+        class="hero-image"
+        src={hero.src}
+        srcset={image.srcset}
+        sizes="100vw"
+        width={image.width}
+        height={image.height}
+        alt={hero.alt}
+        fetchpriority="high"
+        loading="eager"
+      />
+      <div class="hero-shade"></div>
+      <div class="hero-topnote">
+        <span>A photographic journal</span>
+        <span>2022—2026</span>
+      </div>
+      <div class="hero-title">
+        <p class="eyebrow">Marcus Shih / Selected photographs</p>
+        <h1 id="hero-title">
+          Between
+          <br />
+          <em>places.</em>
+        </h1>
+      </div>
+      <div class="hero-bottom">
+        <a href="#selected">
+          Enter the exhibition <span aria-hidden="true">↓</span>
+        </a>
+        <p>
+          Gwangan Bridge<span>Busan, South Korea · 2026</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="intro section-shell" aria-labelledby="intro-title">
+      <p class="eyebrow" data-reveal>
+        01 / A way of seeing
+      </p>
+      <div data-reveal>
+        <h2 id="intro-title">
+          A place, a light,
+          <br />a passing moment.
+        </h2>
+        <p>
+          Photographs from New York, Tokyo, Busan, and Taiwan.
+          <br class="desktop-break" /> Looking at cities, landscapes, and the
+          quiet moments in between.
+        </p>
+      </div>
+      <span class="intro-mark" aria-hidden="true">
+        光
+      </span>
+    </section>
+
+    <section
+      id="selected"
+      class="selected-section"
+      aria-labelledby="selected-title"
+    >
+      <div class="section-heading section-shell">
+        <h2 class="eyebrow" id="selected-title">
+          Selected photographs
+        </h2>
+        <p class="eyebrow">
+          01—{String(selectedPhotos.length).padStart(2, "0")} / An ongoing
+          collection
+        </p>
+      </div>
+      <Gallery entries={selectedPhotos} />
+    </section>
+
+    <section
+      id="collections"
+      class="collections-section section-shell"
+      aria-labelledby="collections-title"
+    >
+      <div class="collections-heading" data-reveal>
+        <p class="eyebrow">02 / Places</p>
+        <h2 id="collections-title">
+          Four places.
+          <br />
+          <em>Many stories.</em>
+        </h2>
+        <p>Explore the complete collections.</p>
+      </div>
+      <div class="collection-list">
+        {albums.map((album, index) => {
+          const photo = coverFor(album);
+          const cover = imageFor(photo);
+          return (
+            <a
+              class="collection-link"
+              href={`/collections/${album.slug}/`}
+              data-reveal
+            >
+              <div class="collection-label">
+                <span class="eyebrow">
+                  0{index + 1} / {album.region}
+                </span>
+                <h3>{album.title}</h3>
+                <p>
+                  {yearsFor(album)}{" "}
+                  <span>{album.photographs.length} photographs</span>
+                </p>
+              </div>
+              <div class="collection-image">
+                <img
+                  src={photo.src}
+                  srcset={cover.srcset}
+                  sizes="(max-width: 700px) 90vw, 40vw"
+                  width={cover.width}
+                  height={cover.height}
+                  alt={photo.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <span class="collection-arrow" aria-hidden="true">
+                ↗
+              </span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  </main>
+</Layout>
