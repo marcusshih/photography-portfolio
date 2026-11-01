@@ -689,11 +689,11 @@ main:focus {
   text-shadow: 0 2px 18px #0008;
 }
 .home-banner .hero-title h1 {
-  font-family: Georgia, "Times New Roman", serif;
-  letter-spacing: -0.045em;
-}
-.home-banner .hero-title h1 em {
-  letter-spacing: -0.055em;
+  font-family:
+    "Hiragino Mincho ProN", "Yu Mincho", "Songti TC", "Noto Serif CJK TC", serif;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.025em;
 }
 .home-banner .hero-title h1 span {
   display: block;
