@@ -7,6 +7,7 @@ import {
   coverFor,
   imageFor,
   yearsFor,
+  galleryEntries,
   type PhotoAlbum,
 } from "../../data/gallery";
 export function getStaticPaths() {
@@ -25,8 +26,7 @@ const index = albums.findIndex((item) => item.slug === album.slug);
 const next = albums[(index + 1) % albums.length];
 const nextCover = coverFor(next);
 const nextImage = imageFor(nextCover);
-// Keep the original album order intact; its chosen banner is an independent introduction.
-const entries = album.photographs.map((photo) => ({ photo, album }));
+const entries = galleryEntries(album);
 ---
 
 <Layout
@@ -34,7 +34,7 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
   title={`${album.title} — Marcus Shih`}
   description={
     album.description ??
-    `${album.photographs.length} photographs from ${album.title}, ${album.region}. A collection by Marcus Shih.`
+    `${entries.length} photographs from ${album.title}, ${album.region}. A collection by Marcus Shih.`
   }
 >
   <main id="main" tabindex="-1">
@@ -50,7 +50,6 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
         fetchpriority="high"
         loading="eager"
       />
-      <div class="hero-shade"></div>
       <div class="hero-topnote">
         <a href={withBase("/#collections")}>← All collections</a>
         <span>Collection 0{index + 1} / 04</span>
@@ -63,12 +62,9 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
       </div>
       <div class="hero-bottom">
         <a href="#photographs">
-          {album.photographs.length} photographs{" "}
-          <span aria-hidden="true">↓</span>
+          {entries.length} photographs <span aria-hidden="true">↓</span>
         </a>
-        <a href={withBase(cover.src)} data-photo={withBase(cover.src)}>
-          View photograph ↗
-        </a>
+        <a href={withBase(cover.src)}>View photograph ↗</a>
       </div>
     </section>
     <section

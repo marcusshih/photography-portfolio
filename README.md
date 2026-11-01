@@ -25,9 +25,9 @@ API key, environment variable, or server adapter is required.
 
 ## Content and layout
 
-- `/`: immersive opening photograph, all 23 curated selections, four collections.
+- `/`: large opening photograph, curated selections, four collections.
 - `/collections/new-york/`, `/collections/tokyo/`, `/collections/busan/`,
-  `/collections/taiwan/`: all 127 published photographs in their original order.
+  `/collections/taiwan/`: gallery photographs with banners excluded and a landscape image first.
 - `/about/`: biography retained from the original portfolio.
 - `src/data/photography.ts`: original typed metadata, copied verbatim.
 - `src/data/gallery.ts`: selection, cover, date, and responsive image helpers.
@@ -36,8 +36,7 @@ API key, environment variable, or server adapter is required.
 - `src/scripts/`: native dialog viewer and lightweight scroll reveals.
 
 Portrait and landscape photographs keep their full compositions in galleries and
-the viewer. Hero and collection previews use editorial crops on desktop; mobile
-heroes show the complete image. Selecting a gallery image opens a viewer scoped
+the viewer. Heroes show the complete image on white; collection previews use editorial crops. Selecting a gallery image opens a viewer scoped
 to that collection. Use arrows, left/right keyboard keys, or a horizontal touch
 swipe to navigate; Escape or Close returns focus to the originating link. Without
 JavaScript, photographs remain direct image links and the site content is visible.
@@ -50,7 +49,7 @@ Reduced-motion preferences disable transitions, reveals, and smooth scrolling.
    text, width, and height. Optional fields include caption, location, date,
    camera, lens, and exposure settings. Existing album slugs and folder names
    need not match (New York uses the `nyc` image folder).
-3. Use `selectedOrder` to feature it on the homepage. Album order stays separate.
+3. Use `selectedOrder` to feature it on the homepage. Album order stays separate; the first landscape leads each gallery.
    `bannerSrc` overrides an album's hero without changing its photo order.
 4. Run `npm run images` to generate the smaller 480/960/1600px variants and update
    `src/data/image-sizes.json`, then `npm run verify:assets` and `npm run build`.
