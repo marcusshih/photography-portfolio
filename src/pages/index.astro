@@ -17,30 +17,28 @@ const image = imageFor(hero);
 <Layout hero>
   <main id="main" tabindex="-1">
     <section class="hero home-hero" aria-labelledby="hero-title">
-      <img
-        class="hero-image"
-        src={withBase(hero.src)}
-        srcset={image.srcset}
-        sizes="100vw"
-        width={image.width}
-        height={image.height}
-        alt={hero.alt}
-        fetchpriority="high"
-        loading="eager"
-      />
-      <div class="hero-title">
-        <p class="eyebrow">Marcus Shih / Selected photographs</p>
-        <h1 id="hero-title">
-          Chasing the lights. <span lang="zh-Hant">追逐光.</span>
-        </h1>
-      </div>
-      <div class="hero-bottom">
-        <a href="#selected">
-          Enter the exhibition <span aria-hidden="true">↓</span>
-        </a>
-        <p>
-          Gwangan Bridge<span>Busan, South Korea · 2026</span>
-        </p>
+      <div class="home-banner">
+        <img
+          class="hero-image"
+          src={withBase(hero.src)}
+          srcset={image.srcset}
+          sizes="100vw"
+          width={image.width}
+          height={image.height}
+          alt={hero.alt}
+          fetchpriority="high"
+          loading="eager"
+        />
+        <div class="hero-title">
+          <h1 id="hero-title">
+            Chasing the lights. <span lang="zh-Hant">追逐光.</span>
+          </h1>
+        </div>
+        <div class="hero-bottom">
+          <p>
+            Gwangan Bridge<span>Busan, South Korea · 2026</span>
+          </p>
+        </div>
       </div>
     </section>
 
@@ -63,13 +61,7 @@ const image = imageFor(hero);
       aria-labelledby="collections-title"
     >
       <div class="collections-heading" data-reveal>
-        <p class="eyebrow">02 / Places</p>
-        <h2 id="collections-title">
-          Four places.
-          <br />
-          <em>Many stories.</em>
-        </h2>
-        <p>Explore the complete collections.</p>
+        <h2 id="collections-title">Collections.</h2>
       </div>
       <div class="collection-list">
         {albums.map((album, index) => {
