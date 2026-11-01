@@ -173,11 +173,22 @@ main:focus {
 .home-hero .hero-title {
   animation: title-enter 1s 0.1s both;
 }
+.home-hero {
+  padding-bottom: 0;
+}
+.selected-section {
+  padding-top: 110px;
+}
 .section-heading {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 45px;
-  color: var(--muted);
+  margin-bottom: 48px;
+  color: #272c25;
+}
+.section-heading::after {
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 40px;
+  background: #bfc2b6;
 }
 .editorial-gallery {
   padding-inline: var(--gutter);
@@ -269,7 +280,7 @@ main:focus {
   position: relative;
   margin-bottom: 80px;
 }
-.collections-heading h2 {
+.section-title {
   font-size: clamp(48px, 6.5vw, 104px);
   letter-spacing: -0.055em;
   line-height: 1.04;
@@ -677,6 +688,13 @@ main:focus {
   margin: 0;
   text-shadow: 0 2px 18px #0008;
 }
+.home-banner .hero-title h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.045em;
+}
+.home-banner .hero-title h1 em {
+  letter-spacing: -0.055em;
+}
 .home-banner .hero-title h1 span {
   display: block;
   margin-top: 22px;
@@ -785,16 +803,14 @@ main:focus {
     font-size: 10px;
     gap: 18px;
   }
+  .selected-section {
+    padding-top: 70px;
+  }
   .section-heading {
-    gap: 20px;
-    padding-bottom: 30px;
+    margin-bottom: 32px;
   }
-  .section-heading .eyebrow {
-    font-size: 8px;
-  }
-  .section-heading > p {
-    max-width: 140px;
-    text-align: right;
+  .section-heading::after {
+    margin-top: 30px;
   }
   .gallery-row {
     margin-bottom: 48px;
@@ -826,8 +842,8 @@ main:focus {
   .collections-heading {
     margin-bottom: 45px;
   }
-  .collections-heading h2 {
-    font-size: 58px;
+  .section-title {
+    font-size: clamp(42px, 14.8vw, 58px);
   }
   .collection-link {
     position: relative;

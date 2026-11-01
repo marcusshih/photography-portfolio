@@ -31,7 +31,7 @@ const image = imageFor(hero);
         />
         <div class="hero-title">
           <h1 id="hero-title">
-            Chasing the lights. <span lang="zh-Hant">追逐光.</span>
+            Chasing the <em>lights.</em> <span lang="zh-Hant">追逐光.</span>
           </h1>
         </div>
         <div class="hero-bottom">
@@ -48,7 +48,7 @@ const image = imageFor(hero);
       aria-labelledby="selected-title"
     >
       <div class="section-heading section-shell">
-        <h2 class="eyebrow" id="selected-title">
+        <h2 class="section-title" id="selected-title">
           Selected photographs
         </h2>
       </div>
@@ -61,7 +61,9 @@ const image = imageFor(hero);
       aria-labelledby="collections-title"
     >
       <div class="collections-heading" data-reveal>
-        <h2 id="collections-title">Collections.</h2>
+        <h2 class="section-title" id="collections-title">
+          Collections.
+        </h2>
       </div>
       <div class="collection-list">
         {albums.map((album, index) => {
