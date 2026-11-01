@@ -9,7 +9,8 @@ const rows: { entries: Entry[]; start: number }[] = [];
 for (let index = 0; index < entries.length;) {
   const first = entries[index];
   const count =
-    first.photo.height > first.photo.width && index + 1 < entries.length
+    first.photo.height > first.photo.width &&
+    entries[index + 1]?.photo.height > entries[index + 1]?.photo.width
       ? 2
       : 1;
   rows.push({ entries: entries.slice(index, index + count), start: index });
@@ -18,12 +19,11 @@ for (let index = 0; index < entries.length;) {
 ---
 
 <div class="editorial-gallery" data-gallery>
-  {rows.map((row, index) => (
+  {rows.map((row) => (
     <div
       class:list={[
         "gallery-row",
         row.entries.length === 2 ? "paired" : "single",
-        { "offset-right": index % 2 === 1, wide: index % 4 === 0 },
       ]}
     >
       {row.entries.map((entry, itemIndex) => (
