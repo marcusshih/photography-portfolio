@@ -12,7 +12,7 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Astro (normally http://127.0.0.1:4321).
+Open the local URL printed by Astro (normally http://127.0.0.1:4321/photography-portfolio/).
 
 ```sh
 npm run check
@@ -72,14 +72,23 @@ The checksum inventory is `docs/migration-manifest.json`. Verify the local copy:
 ```sh
 npm run verify:assets -- --archive
 # With the dev or preview server running:
-npm run verify:assets -- --http=http://127.0.0.1:4321
+npm run verify:assets -- --http=http://127.0.0.1:4321/photography-portfolio/
 ```
 
-## Vercel (when approved)
+## GitHub Pages
 
-This is a static Astro site, so no Vercel adapter is required. Configuration is in
-`vercel.json`: framework Astro, build command `npm run build`, output `dist`.
-Select Node 22.x and use this repository root as the Vercel project root.
-See [Astro's Vercel deployment guide](https://docs.astro.build/en/guides/deploy/vercel/).
-Set the final canonical domain and social share image metadata when the domain
-is chosen. Nothing has been pushed or deployed as part of local development.
+Public URL: https://marcusshih.github.io/photography-portfolio/
+
+`.github/workflows/deploy.yml` uses the official Astro action to install dependencies
+from `package-lock.json`, build the static site, and deploy to GitHub Pages on every
+push to `main`. It can also run manually from the repository's Actions tab.
+
+In GitHub, open **Settings → Pages → Build and deployment → Source** and select
+**GitHub Actions**. After pushing, check **Actions → Deploy to GitHub Pages** for a
+successful build and deployment. If Pages was enabled after the push, use **Run
+workflow** on `main`.
+
+The `site` and `base` in `astro.config.mjs` match the existing GitHub remote.
+Navigation, original photographs, responsive variants, and viewer links use
+`src/utils/paths.ts` to include the configured base. Local dev and preview use the
+same `/photography-portfolio/` subpath as production.

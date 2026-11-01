@@ -1,4 +1,5 @@
 ---
+import { withBase } from "../utils/paths";
 import Layout from "../layouts/Layout.astro";
 import Gallery from "../components/Gallery.astro";
 import {
@@ -17,7 +18,7 @@ const image = imageFor(hero);
     <section class="hero home-hero" aria-labelledby="hero-title">
       <img
         class="hero-image"
-        src={hero.src}
+        src={withBase(hero.src)}
         srcset={image.srcset}
         sizes="100vw"
         width={image.width}
@@ -107,7 +108,7 @@ const image = imageFor(hero);
           return (
             <a
               class="collection-link"
-              href={`/collections/${album.slug}/`}
+              href={withBase(`/collections/${album.slug}/`)}
               data-reveal
             >
               <div class="collection-label">
@@ -122,7 +123,7 @@ const image = imageFor(hero);
               </div>
               <div class="collection-image">
                 <img
-                  src={photo.src}
+                  src={withBase(photo.src)}
                   srcset={cover.srcset}
                   sizes="(max-width: 700px) 90vw, 40vw"
                   width={cover.width}

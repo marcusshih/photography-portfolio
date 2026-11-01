@@ -1,4 +1,5 @@
 ---
+import { withBase } from "../../utils/paths";
 import Layout from "../../layouts/Layout.astro";
 import Gallery from "../../components/Gallery.astro";
 import {
@@ -40,7 +41,7 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
     <section class="hero album-hero" aria-labelledby="album-title">
       <img
         class="hero-image"
-        src={cover.src}
+        src={withBase(cover.src)}
         srcset={image.srcset}
         sizes="100vw"
         width={image.width}
@@ -51,7 +52,7 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
       />
       <div class="hero-shade"></div>
       <div class="hero-topnote">
-        <a href="/#collections">← All collections</a>
+        <a href={withBase("/#collections")}>← All collections</a>
         <span>Collection 0{index + 1} / 04</span>
       </div>
       <div class="hero-title">
@@ -65,7 +66,7 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
           {album.photographs.length} photographs{" "}
           <span aria-hidden="true">↓</span>
         </a>
-        <a href={cover.src} data-photo={cover.src}>
+        <a href={withBase(cover.src)} data-photo={withBase(cover.src)}>
           View photograph ↗
         </a>
       </div>
@@ -84,9 +85,9 @@ const entries = album.photographs.map((photo) => ({ photo, album }));
       </div>
       <Gallery entries={entries} />
     </section>
-    <a class="next-collection" href={`/collections/${next.slug}/`}>
+    <a class="next-collection" href={withBase(`/collections/${next.slug}/`)}>
       <img
-        src={nextCover.src}
+        src={withBase(nextCover.src)}
         srcset={nextImage.srcset}
         sizes="100vw"
         width={nextImage.width}

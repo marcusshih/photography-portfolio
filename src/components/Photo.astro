@@ -1,4 +1,5 @@
 ---
+import { withBase } from "../utils/paths";
 import { imageFor, type Entry } from "../data/gallery";
 interface Props {
   entry: Entry;
@@ -21,12 +22,12 @@ const image = imageFor(photo);
 >
   <a
     class="photo-link"
-    href={photo.src}
-    data-photo={photo.src}
+    href={withBase(photo.src)}
+    data-photo={withBase(photo.src)}
     aria-label={`View ${photo.title}`}
   >
     <img
-      src={photo.src}
+      src={withBase(photo.src)}
       srcset={image.srcset}
       sizes={
         compact
@@ -48,6 +49,6 @@ const image = imageFor(photo);
       <span class="photo-number">{String(index + 1).padStart(2, "0")}</span>
       {photo.title}
     </span>
-    <a href={`/collections/${album.slug}/`}>{album.title}</a>
+    <a href={withBase(`/collections/${album.slug}/`)}>{album.title}</a>
   </figcaption>
 </figure>

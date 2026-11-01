@@ -52,7 +52,7 @@ for (const file of preserved) {
 
 const httpArgument = process.argv.find((arg) => arg.startsWith("--http="));
 if (httpArgument) {
-  const base = httpArgument.slice("--http=".length);
+  const base = `${httpArgument.slice("--http=".length).replace(/\/$/, "")}/`;
   const paths = [
     ...urls,
     "/",
@@ -65,7 +65,7 @@ if (httpArgument) {
   for (let index = 0; index < paths.length; index += 12) {
     await Promise.all(
       paths.slice(index, index + 12).map(async (path) => {
-        const response = await fetch(new URL(path, base));
+        const response = await fetch(new URL(path.replace(/^\//, ""), base));
         assert.equal(response.status, 200, `HTTP failure: ${path}`);
         if (path.endsWith(".webp"))
           assert(

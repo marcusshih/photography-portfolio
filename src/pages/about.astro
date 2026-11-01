@@ -1,4 +1,5 @@
 ---
+import { withBase } from "../utils/paths";
 import Layout from "../layouts/Layout.astro";
 import Photo from "../components/Photo.astro";
 import { selectedPhotos } from "../data/gallery";
@@ -31,7 +32,7 @@ const entry =
         This collection moves between New York, Tokyo, Busan, and Taiwan —
         tracing light, scale, memory, and quiet moments within each place.
       </p>
-      <a class="text-link" href="/#collections">
+      <a class="text-link" href={withBase("/#collections")}>
         Explore the collections ↗
       </a>
     </div>

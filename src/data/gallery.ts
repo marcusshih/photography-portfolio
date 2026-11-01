@@ -1,3 +1,4 @@
+import { withBase } from "../utils/paths";
 import { albums, type Photograph, type PhotoAlbum } from "./photography";
 import sizes from "./image-sizes.json";
 
@@ -27,7 +28,9 @@ export function imageFor(photo: Photograph) {
   return {
     width: image?.width ?? photo.width,
     height: image?.height ?? photo.height,
-    srcset: image?.variants.map((v) => `${v.src} ${v.width}w`).join(", "),
+    srcset: image?.variants
+      .map((v) => `${withBase(v.src)} ${v.width}w`)
+      .join(", "),
   };
 }
 export function yearsFor(album: PhotoAlbum) {

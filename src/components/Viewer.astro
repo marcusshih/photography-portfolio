@@ -1,9 +1,11 @@
 ---
+import { withBase } from "../utils/paths";
 import { allPhotos } from "../data/gallery";
 const payload = allPhotos.map(({ photo, album }) => ({
   ...photo,
+  src: withBase(photo.src),
   album: album.title,
-  albumHref: `/collections/${album.slug}/`,
+  albumHref: withBase(`/collections/${album.slug}/`),
 }));
 ---
 
@@ -32,7 +34,7 @@ const payload = allPhotos.map(({ photo, album }) => ({
   <div class="viewer-bottom">
     <div class="viewer-caption">
       <h2 id="viewer-title"></h2>
-      <a class="viewer-album" href="/"></a>
+      <a class="viewer-album" href={withBase("/")}></a>
     </div>
     <div class="viewer-controls">
       <button type="button" data-step="-1" aria-label="Previous photograph">

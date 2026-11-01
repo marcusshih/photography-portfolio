@@ -1,9 +1,10 @@
 ---
+import { withBase } from "../utils/paths";
 const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
-  <a class="footer-name" href="/">
+  <a class="footer-name" href={withBase("/")}>
     Marcus Shih<span>Photographs of places. Traces of life.</span>
   </a>
   <div class="footer-bottom">
